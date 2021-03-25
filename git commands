@@ -1,0 +1,18 @@
+git init                        creates a new Git repository
+git status                      inspects the contents of the working directory and staging area
+git add                         adds files from the working directory to the staging area ----- ( git add . aggiunge tutti i flie della directory  - - git add --all aggiunge files e subdirectory     git add -p interat
+git diff                        shows the difference between the working directory and the staging area
+git commit                      permanently stores file changes from the staging area in the repository
+git log                         shows a list of all previous commits
+git checkout HEAD filename:     Discards changes in the working directory.
+git reset HEAD filename:        Unstages file changes in the staging area     git checkout -- filename
+git reset commit_SHA:           Resets to a previous commit in your commit history.ls -l
+
+
+git status
+  400  git push --tags
+  401  git tag -l
+  402  git push origin tag 8.x-1.1
+  403  git push -u origin '@branch'
+
+
